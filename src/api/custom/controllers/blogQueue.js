@@ -26,7 +26,6 @@ blogQueue.process(async (job) => {
     console.log('Query result:', existingBlog);
     if (existingBlog.length > 0) {
       console.log('Blog with this title already exists');
-      //ctx.body = 'Blog with this title already exists';
     } else {
       // If not, create a new blog
       
