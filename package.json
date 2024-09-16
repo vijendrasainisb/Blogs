@@ -34,5 +34,8 @@
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15"
+  }
 }
